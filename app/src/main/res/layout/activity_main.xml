@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backim"
+    tools:context="com.mobilecomputing.gpslocation.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <!--<Button-->
+    <!--android:text="Enable GPS in device"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/textView2"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:id="@+id/button" />-->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp"
+        android:background="#50D050"
+        android:text="Start"
+        android:textColor="#FBFBEF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginBottom="52dp"
+        android:background="#DF0101"
+        android:text="Stop"
+        android:textColor="#FBFBEF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
